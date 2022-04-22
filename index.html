@@ -621,8 +621,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-netlify="true"
-            data-netlify-recaptcha="true">
+            <form action="" method="POST" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Votre nom</label>
@@ -641,12 +640,7 @@
                 <label for="name">Message</label>
                 <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Patientez</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Votre message a été envoyer avec succès.</div>
-              </div>
-              <div class="text-center"><button type="submit">ENVOYER</button></div>
+              <div class="text-center"><button type="submit" id="btn">ENVOYER</button></div>
             </form>
           </div>
 
