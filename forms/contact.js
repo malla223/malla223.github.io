@@ -12,7 +12,7 @@ btn.addEventListener('click', function (e) {
     var email = document.getElementById('email').value;
     var subject = document.getElementById('subject').value;
     var message = document.getElementById('message').value;
-    var body = '' + name + '<br>' + email + '<br>' +
+    var body = '' + name + '<br>' +
     subject + '<br>' + message;
 
 
